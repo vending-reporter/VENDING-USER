@@ -7,7 +7,7 @@ const global = createGlobalStyle`
     list-style: none;
     box-sizing: border-box;
     outline: none;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
     user-select: none;
   }
   a {
@@ -15,18 +15,6 @@ const global = createGlobalStyle`
   }
   body {
     margin: 0;
-  }
-  ::-webkit-scrollbar {
-    width: 5px;
-    height: 10px;
-  }
-  ::-webkit-scrollbar-track-piece {
-    background-color: white;
-    border-radius: 6px;
-  }
-  ::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-    background-color: #FF9D86;
   }
 `;
 
